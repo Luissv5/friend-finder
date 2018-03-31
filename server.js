@@ -17,4 +17,4 @@ app.use(bodyParser.jspm({ type: 'application/nvd.api+json' }));
 require('./app/routing/api-routes.js')(app);
 require('./app/routing/html-routes.js')(app);
 
-app.listen(process.env.PORt || 8080);
+app.listen(process.env.PORT || 8080);
